@@ -258,7 +258,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: '15/09/2019 – 04/03/2023',
-    location: 'WSB - Merito Poznan',
+    location: 'WSB Merito - Poznan',
     title: 'B.Eng Computer Science',
     content: <p></p>,
   },
