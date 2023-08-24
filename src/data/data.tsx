@@ -69,19 +69,16 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hi I'm James Etchells.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I am a Poznan based <strong className="text-stone-100">Frontend Software Engineer</strong>, with a BE in Computer Science from <strong className="text-stone-100">WSB University Poznań </strong> Experienced in utilizing modern frameworks and libraries such as React, Angular, and Node.js enabling me to build interactive and responsive web applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
+      In addition to my technical expertise, I am committed to personal growth and <strong className="text-stone-100">professional development</strong>,
+      . I actively engage in online communities, attend industry conferences, and participate in coding challenges to expand my knowledge and stay connected with the broader developer community. 
+      </p> 
     </>
   ),
   actions: [
@@ -104,16 +101,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `James Etchells`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Poznan, PL', Icon: MapIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'British/Irish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Coding, Swimming', Icon: SparklesIcon},
+    {label: 'Education', text: 'Computer Science - WSB Merito Poznan ', Icon: AcademicCapIcon},
+    {label: 'Employment History', text: 'SIS LLC, McKinsey & Company.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,17 +120,14 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'English - Native',
         level: 10,
       },
       {
-        name: 'French',
+        name: 'Polish',
         level: 4,
       },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+   
     ],
   },
   {
@@ -268,39 +260,46 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '15/09/2019 – 04/03/2023',
+    location: 'WSB - Merito Poznan',
+    title: 'B.Eng Computer Science',
+    content: <p></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '10/2014 – 07/2017',
+    location: 'University of Ulster',
+    title: 'Bsc – GEOGRAPHY',
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '03/2022 – 04/2023',
+    location: 'SIS LLC',
+    title: 'Software Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      •	Wrote clean, efficient, and maintainable JavaScript code for web applications.
+      •	Collaborated with cross-functional teams, including designers and backend developers, to define project requirements and implement solutions.
+      •	Developed user-friendly interfaces/CRM using HTML, CSS, and JavaScript framework React. 
+      •	Debugged and fixed issues in existing code, troubleshot performance bottlenecks, and optimized application performance.
+      •	Conducted code reviews, provided feedback, and ensured adherence to coding standards and best practices.
+
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '07/2019 – 09/2021',
+    location: 'Mckinsey & Company EMEA',
+    title: 'Visual Graphics Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        • Developed UI/UX designs for websites, apps, and other digital interfaces.
+        • Communicated with clients to understand their design needs and preferences.
+        • Presented design concepts and collaborated on revisions to achieve client satisfaction.
+        • Organized and managed digital assets, design files, and resources in a structured manner.
+        • Collaborated with data analysts to effectively communicate data insights through visuals.
       </p>
     ),
   },
@@ -309,7 +308,7 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
-export const testimonial: TestimonialSection = {
+ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
@@ -328,7 +327,7 @@ export const testimonial: TestimonialSection = {
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
-};
+}; 
 
 /**
  * Contact section
@@ -340,23 +339,22 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'Jetchells1995@gmail.com',
+      href: 'mailto:Jetchells1995@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Poznan, PL',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      type: ContactType.LinkedIn,
+      text: 'https://www.linkedin.com/in/james-etchells/',
+      href: 'https://www.linkedin.com/in/james-etchells/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'https://github.com/Jetch123',
+      href: 'https://github.com/Jetch123',
     },
   ],
 };
@@ -366,8 +364,5 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
