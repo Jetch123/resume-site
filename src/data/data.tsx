@@ -9,10 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -45,7 +42,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Resume Site - James Etchells",
 };
 
 /**
@@ -76,8 +73,8 @@ export const heroData: Hero = {
         I am a Poznan based <strong className="text-stone-100">Frontend Software Engineer</strong>, with a BE in Computer Science from <strong className="text-stone-100">WSB University Poznań </strong> Experienced in utilizing modern frameworks and libraries such as React, Angular, and Node.js enabling me to build interactive and responsive web applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      In addition to my technical expertise, I am committed to personal growth and <strong className="text-stone-100">professional development</strong>,
-      . I actively engage in online communities, attend industry conferences, and participate in coding challenges to expand my knowledge and stay connected with the broader developer community. 
+      In addition to my technical expertise, I am committed to personal growth and <strong className="text-stone-100">professional development. </strong>
+        I actively engage in online communities, attend industry conferences, and participate in coding challenges to expand my knowledge and stay connected with the broader developer community. 
       </p> 
     </>
   ),
@@ -331,7 +328,7 @@ export const experience: TimelineItem[] = [
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Contact Details',
   items: [
     {
       type: ContactType.Email,
