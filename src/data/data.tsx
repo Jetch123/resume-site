@@ -177,6 +177,11 @@ export const skills: SkillGroup[] = [
   },
 ];
 
+
+/** Hello world, what's new */
+
+
+
 /**
  * Portfolio section
  */
