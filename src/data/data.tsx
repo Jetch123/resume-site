@@ -188,36 +188,34 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Resume webpage',
-    description: 'A webpage showing my resume and links to LinkedIn & Github. Uses Typescript, Tailwind, SCSS. Branched from tbakerx ',
+    description: 'A webpage showing my resume and links to LinkedIn & Github. Uses Typescript, Tailwind, SCSS and Yarn. Branched from tbakerx ',
     url: 'https://github.com/Jetch123/resume-site',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Banking App',
+    description: 'Banking project designed for simple transactions and basic Login capabilities. Uses JS, CSS, HTML',
+    url: 'https://github.com/Jetch123/bank-app-js-master',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Finance Manager',
+    description: 'A basic finance manager which takes data inputs and displays them graphically by month. Uses JS, CSS, React and node.js',
+    url: 'https://github.com/Jetch123/react-finance-manager',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Dice roll game',
+    description: 'A simple dice game in which players try to reach 100 points first and switch turns when a 1 is rolled. Uses JS, CSS and HTML',
+    url: 'https://github.com/Jetch123/pig-game-js-master',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Rock Paper Scissors',
+    description: 'This is a simple Rock Paper Scissors game, using JS, CSS and HTML',
+    url: 'https://github.com/Jetch123/rock-paper-scissors-game-main',
     image: porfolioImage5,
   },
-
-  
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
