@@ -269,7 +269,7 @@ export const education: TimelineItem[] = [
   {
     date: '10/2014 – 07/2017',
     location: 'University of Ulster',
-    title: 'Bsc – GEOGRAPHY',
+    title: 'Bsc – Geography',
     content: <p></p>,
   },
 ];
