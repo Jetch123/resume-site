@@ -187,9 +187,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Resume webpage',
+    description: 'A webpage showing my resume and links to LinkedIn & Github. Uses Typescript, Tailwind, SCSS. Branched from tbakerx ',
+    url: 'https://github.com/Jetch123/resume-site',
     image: porfolioImage1,
   },
   {
@@ -216,12 +216,15 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://reactresume.com',
     image: porfolioImage5,
   },
+
+  
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage6,
   },
+  /** 
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
@@ -252,6 +255,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://reactresume.com',
     image: porfolioImage11,
   },
+  */
 ];
 
 /**
