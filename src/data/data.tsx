@@ -217,9 +217,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Guess my number',
+    description: 'A simple game in which players try to guess a randomly generated number between 1-20. Includes a point system and highscore counter. Uses JS, CSS and HTML ',
+    url: 'https://github.com/Jetch123/guess-my-number-main',
     image: porfolioImage6,
   },
   /** 
